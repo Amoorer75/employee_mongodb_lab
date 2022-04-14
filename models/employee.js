@@ -11,7 +11,7 @@ const Employee = new Schema({
         street: {type:String,required: true,},
         city: {type:String,required: true,},
         state: {type:String,required: true,},
-        zip: { type: Number,required: true},
+        zip: { type: String,required: true},
     }
 },
 { timestamp:true }
